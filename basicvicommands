@@ -1,0 +1,31 @@
+Editing File
+---------------
+https://docs.oracle.com/cd/E19683-01/806-7612/editorvi-tbl-83/index.html
+
+Moving to Start or End of Line
+Press ^ to move the cursor to the start of the current line.
+Press $ to move the cursor to the end of the current line.
+l key to move to the right side.
+h key to move to the left side.
+k key to move upside in the file.
+j key to move downside in the file.
+Press H (“high”) to move the cursor to the top of the screen.
+Press L (“low”) to move the cursor to the bottom of the screen.
+Press M (“middle”) to move the cursor to the middle of the screen.
+
+press Esc and finally two keys Shift + ZZ together to come out of the file completely.
+find and replace = :$s/old/new/g or $s/old/new/cg (confirm)
+to search word from top to bottom = /word to contiue with search \n it go to next line
+to search word from bottom to top = ?word to contiue with search \n it go to next line
+to copy complete line = esc+yy
+to paste =esc+p
+to delete current line esc+DD to delete current word esc+dw
+==================================
+read statement
+#!/bin/bash
+echo "enter your name:"
+read name
+echo "hello,$name"
+---------------
+wild card : matches any string or group of charachters
+ls * ->to show all the files, ls *a -->firstname is starts with letter a 
